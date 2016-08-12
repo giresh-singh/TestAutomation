@@ -16,7 +16,7 @@ namespace TestAutomation.LendingTree.tl
         private const uint VARIATION_VALIDATION = 12;
 
         private const int WAIT_TIME_ANIMATE = 2; //s
-        private const int WAIT_TIME_AJAX = 10; //s
+        //private const int WAIT_TIME_AJAX = 10; //s
         private const int WAIT_TIME_STEP_ADVANCE = 5; //s
 
         //TODO: This delay before ending or beginning a step prevents certain mysterious issues like IE not hitting radio buttons. Increasing it might help if those issues resurface.
