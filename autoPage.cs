@@ -12,7 +12,7 @@ namespace TestAutomation.LendingTree.tl
     {
         private readonly IWebDriver autoDriver;
         private const String strTid = "auto";
-        private const uint VARIATION_AUTOADVANCE = 5;
+        //private const uint VARIATION_AUTOADVANCE = 5;
         private const uint VARIATION_VALIDATION = 12;
 
         private const int WAIT_TIME_ANIMATE = 2; //s
