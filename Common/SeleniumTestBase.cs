@@ -73,7 +73,7 @@ namespace TestAutomation
                     break;
                 case "CBT":             // CrossBrowserTesting.com
                     // IE 11, Win 10
-                    caps.SetCapability("name", "Selenium Test Example");
+                    //caps.SetCapability("name", "Selenium Test Example"); Commented for testing on git
                     caps.SetCapability("build", "1.0");
                     caps.SetCapability("browser_api_name", "Chrome45x64");
                     caps.SetCapability("os_api_name", "Win10");
